@@ -1,17 +1,20 @@
 import * as S from './styles';
 import { ProfessionalsData } from '../../services/profissionals';
-import { useParams } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 
 export const Whitelabel = () => {
-  const { profissionalname } = useParams();
+  // const { profissionalname } = useParams();
   
-  const professional = ProfessionalsData.professionals.find((prof) =>
-    prof.name.toLowerCase() === profissionalname.toLowerCase()
-  );
+  // const professional = ProfessionalsData.professionals.find((prof) =>
+  //   prof.name.toLowerCase() === profissionalname.toLowerCase()
+  // );
 
-  if (!professional) {
-    return <div>Profissional não encontrado</div>;
-  }
+  // if (!professional) {
+  //   return <div>Profissional não encontrado</div>;
+  // }
+
+  const professional = ProfessionalsData.professionals[0]
+  console.log(professional);
 
   return (
     <S.Container color={professional.backgroundColor}>
