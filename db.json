@@ -1,0 +1,25 @@
+{
+  "professionals": [
+    { 
+      "id": 1,
+      "name": "Igor Marines",
+      "title": "Mestre em Estilo e Corte Masculino",
+      "workname": "Igor Marines Barber Shop",
+      "resume": "Igor Marines é mais do que apenas um barbeiro - ele é um artista que transforma cabelo e barba em obras-primas de estilo. Com anos de experiência no mundo da beleza masculina, Igor é um mestre em sua arte, e sua paixão por criar looks impecáveis é evidente em cada corte e barba que ele realiza. Seu estúdio de barbearia é um refúgio de estilo e relaxamento, onde os clientes podem escapar da agitação do dia-a-dia. Com atenção meticulosa aos detalhes e uma abordagem personalizada para cada cliente, Igor garante que cada visita à sua barbearia seja uma experiência única e luxuosa. Com uma coleção de tesouras afiadas e produtos de alta qualidade, Igor Marines é conhecido por seus cortes precisos, penteados modernos e barbas bem cuidadas. Ele se dedica a entender as preferências individuais de seus clientes e aconselhá-los sobre os estilos que mais combinam com sua personalidade e estilo de vida. Além de sua habilidade incomparável com a tesoura e a navalha, Igor cria um ambiente acolhedor e amigável em sua barbearia, onde os clientes se sentem em casa. Seja para uma aparência afiada para um evento importante ou um relaxante tratamento de barba, Igor Marines é o barbeiro que você pode confiar para proporcionar uma experiência de cuidado pessoal de primeira classe."
+    },
+    { 
+      "id": 2,
+      "name": "Carla Santos",
+      "title": "Especialista em Coloração de Cabelo",
+      "workname": "Carla's Beauty Studio",
+      "resume": "Carla Santos é uma especialista em coloração de cabelo com uma paixão pela arte da transformação. Ela traz cores vibrantes e estilo para a vida de seus clientes, criando looks únicos e deslumbrantes. Com anos de experiência na indústria da beleza, Carla dominou a química das cores e está sempre atualizada com as últimas tendências. Seu estúdio de beleza é um lugar onde os clientes podem experimentar uma explosão de cores e criatividade, tudo enquanto desfrutam de um ambiente relaxante e amigável. Carla é conhecida por sua capacidade de personalizar a cor do cabelo de acordo com a personalidade e o estilo de vida de seus clientes, proporcionando resultados que fazem com que eles se sintam confiantes e radiantes. Além de suas habilidades de coloração de cabelo, Carla também oferece serviços de tratamento capilar para manter a saúde e a vitalidade dos cabelos de seus clientes. Se você está procurando uma transformação de cor de cabelo que reflete sua individualidade, Carla Santos é a especialista que você precisa."
+    },
+    { 
+      "id": 3,
+      "name": "Lucas Silva",
+      "title": "Especialista em Penteados de Casamento",
+      "workname": "Lucas Hair & Beauty",
+      "resume": "Lucas Silva é um especialista em penteados de casamento que torna os sonhos dos noivos em realidade. Com um toque de magia em suas mãos, ele cria penteados deslumbrantes e elegantes que complementam perfeitamente o grande dia. Lucas tem uma paixão por ajudar os casais a se sentirem confiantes e bonitos em seu casamento, e ele trabalha incansavelmente para criar penteados que são verdadeiramente memoráveis. Seu estúdio de beleza é um oásis de tranquilidade, onde os noivos podem relaxar e se preparar para o dia mais importante de suas vidas. Além de sua expertise em penteados de casamento, Lucas também oferece serviços de maquiagem para garantir que os noivos estejam impecáveis em todos os aspectos. Sua atenção aos detalhes e habilidades criativas fazem dele a escolha ideal para quem procura um especialista em beleza para o dia do casamento. Se você deseja um penteado de casamento que seja verdadeiramente mágico, Lucas Silva é o profissional que fará seus sonhos se tornarem realidade."
+    }
+  ]
+}
