@@ -51,11 +51,11 @@ export const Whitelabel = () => {
             </S.AboutProfissional>
           </S.MiddleContent>
           <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', background: 'url(https://i.pinimg.com/564x/16/c2/7d/16c27d9e9c8a0c47cc365324a5b91a59.jpg)' }}>
-            {professional.photosFromWork.map((photo) => {
+            {professional.photosFromWork.map((photo, index) => {
               return (
                 <img
-                  style={{ width: '5.33844rem', margin: '20px 5px', borderRadius: '0.8125rem', border: '1px solid black', boxShadow: 'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;' }}
-                  key={photo.id}
+                  style={{ width: '5.33844rem', margin: '20px 5px', borderRadius: '0.8125rem', border: '1px solid black', boxShadow: 'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px' }}
+                  key={index}
                   src={photo}
                 />
               );
