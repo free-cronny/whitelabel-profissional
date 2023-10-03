@@ -1,5 +1,6 @@
 import * as S from './styles';
 import { ProfessionalsData } from '../../services/profissionals';
+import 'animate.css';
 // import { useParams } from 'react-router-dom';
 
 export const Whitelabel = () => {
@@ -28,28 +29,29 @@ export const Whitelabel = () => {
                 <div>
                   <img src="https://i.pinimg.com/564x/e0/0c/90/e00c90aba4be40659b1e3d2ad61e65c7.jpg" />
                 </div>
-                <div style={{textAlign: 'center', width: '100%'}}>
+                <div style={{textAlign: 'center', width: '100%'}} className='animate__animated animate__fadeIn animate__delay-1s'>
                   <h1>{professional.name}</h1>
                 </div>
               </div>
               <hr />
-              <h3>{professional.title}</h3>
+              <h3 className='animate__animated animate__fadeIn animate__delay-2s'>{professional.title}</h3>
             </S.NameProfissional>
           </S.HeaderNameProfissional>
 
           <S.MiddleContent>
             <S.PhotoAndPlace>
               <S.ProfissionalPhoto>
-                <img src={professional.photo} alt="" />
+                <img src={professional.photo} alt="" className='animate__animated animate__fadeIn animate__delay-3s'/>
               </S.ProfissionalPhoto>
               <S.PhotoPlace>
-                <img src="https://cdn.discordapp.com/attachments/1157680036770492486/1158494834475155466/barber.jpg?ex=651c73e4&is=651b2264&hm=95503392d3f36e5de88f842f70e5f2d7f5da0605b169857020487c601a72e3c4&" alt="" />
+                <img className='animate__animated animate__fadeIn animate__delay-3s'
+                src="https://cdn.discordapp.com/attachments/1157680036770492486/1158494834475155466/barber.jpg?ex=651c73e4&is=651b2264&hm=95503392d3f36e5de88f842f70e5f2d7f5da0605b169857020487c601a72e3c4&" alt="" />
               </S.PhotoPlace>
             </S.PhotoAndPlace>
             <S.AboutProfissional>
-              <p><span>{professional.workname}</span></p>
+              <p className='animate__animated animate__fadeIn animate__delay-4s'><span>{professional.workname}</span></p>
               <hr />
-              <p>{professional.resume}</p>
+              <p className='animate__animated animate__fadeIn animate__delay-4s'>{professional.resume}</p>
               <hr />
             </S.AboutProfissional>
           </S.MiddleContent>
