@@ -30,7 +30,7 @@ export const Whitelabel = () => {
                   <img src="https://i.pinimg.com/564x/e0/0c/90/e00c90aba4be40659b1e3d2ad61e65c7.jpg" />
                 </div>
                 <div style={{textAlign: 'center', width: '100%'}} className='animate__animated animate__fadeIn animate__delay-1s'>
-                  <h1>{professional.name}</h1>
+                  <h1>{professional.name}.</h1>
                 </div>
               </div>
               <hr />
