@@ -45,7 +45,7 @@ export const Whitelabel = () => {
               </S.ProfissionalPhoto>
               <S.PhotoPlace>
                 <img className='animate__animated animate__fadeIn animate__delay-3s'
-                src="https://cdn.discordapp.com/attachments/1157680036770492486/1158494834475155466/barber.jpg?ex=651c73e4&is=651b2264&hm=95503392d3f36e5de88f842f70e5f2d7f5da0605b169857020487c601a72e3c4&" alt="" />
+                src="https://i.pinimg.com/originals/61/6e/74/616e74bdf5ef7c083925b1a6bc23e8f0.jpg" alt="" />
               </S.PhotoPlace>
             </S.PhotoAndPlace>
             <S.AboutProfissional>
@@ -67,7 +67,7 @@ export const Whitelabel = () => {
             })}
           </div>
           <S.FooterProfissional>
-            <hr />
+          
             <div>
               <p>Endereço:</p>
               <hr />
@@ -80,7 +80,7 @@ export const Whitelabel = () => {
               <p>CEP: {professional.infosAboutPlace.zipCode}</p>
               <hr />
             </div>
-            <hr />
+            
             <div>
               <p>Horário de Funcionamento:</p>
               <hr />
@@ -91,7 +91,7 @@ export const Whitelabel = () => {
               <p>{professional.businessHours.sunday}</p>
               <hr />
             </div>
-            <hr />
+           
             <div>
               <p>Contato:</p>
               <hr />
@@ -102,7 +102,7 @@ export const Whitelabel = () => {
               <p>WhatsApp: {professional.contact.whatsapp}</p>
               <hr />
             </div>
-            <hr />
+    
           </S.FooterProfissional>
         </S.InfosProfissional>
       </div>
