@@ -1,18 +1,8 @@
 import * as S from './styles';
 import { ProfessionalsData } from '../../services/profissionals';
 import 'animate.css';
-// import { useParams } from 'react-router-dom';
 
 export const Whitelabel = () => {
-  // const { profissionalname } = useParams();
-  
-  // const professional = ProfessionalsData.professionals.find((prof) =>
-  //   prof.name.toLowerCase() === profissionalname.toLowerCase()
-  // );
-
-  // if (!professional) {
-  //   return <div>Profissional não encontrado</div>;
-  // }
 
   const professional = ProfessionalsData.professionals[0]
   console.log(professional);
@@ -41,7 +31,7 @@ export const Whitelabel = () => {
           <S.MiddleContent>
             <S.PhotoAndPlace>
               <S.ProfissionalPhoto>
-                <img src={professional.photo} alt="" className='animate__animated animate__fadeIn animate__delay-3s'/>
+                <img src="https://cdn.discordapp.com/attachments/840680667842871306/1288501692719173702/81ccb3f47785538147832a2097d93dcc.png?ex=66f56a36&is=66f418b6&hm=83ad577f543bb656eb62ae300489de1acb0ce1ba1eb6dbfef868d8e43427aafa&" alt="" className='animate__animated animate__fadeIn animate__delay-3s'/>
               </S.ProfissionalPhoto>
               <S.PhotoPlace>
                 <img className='animate__animated animate__fadeIn animate__delay-3s'
@@ -61,7 +51,7 @@ export const Whitelabel = () => {
                 <img
                   style={{ width: '5.33844rem', margin: '20px 5px', borderRadius: '0.8125rem', border: '1px solid black', boxShadow: 'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px' }}
                   key={index}
-                  src={photo}
+                  src="https://cdn.discordapp.com/attachments/840680667842871306/1288501692719173702/81ccb3f47785538147832a2097d93dcc.png?ex=66f56a36&is=66f418b6&hm=83ad577f543bb656eb62ae300489de1acb0ce1ba1eb6dbfef868d8e43427aafa&"
                 />
               );
             })}
