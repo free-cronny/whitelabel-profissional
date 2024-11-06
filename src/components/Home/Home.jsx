@@ -7,12 +7,8 @@ import {ProfessionalsData} from '../../services/profissionals'
 import { useState } from 'react'
 
 export const Home = () => {
-
-
-    
     const [valueSearch, setValueSearch] = useState('')
     const [filteredResults, setFilteredResults] = useState(ProfessionalsData.professionals);
-
     console.log(valueSearch)
 
     return (
